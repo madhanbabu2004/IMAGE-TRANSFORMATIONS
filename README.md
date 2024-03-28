@@ -42,11 +42,12 @@ Crop the image to remove unwanted areas from an image
 ### Step10:
 Use cv2.imshow to show the image
 ## Program:
-```python
+```
 Developed By:MADHAN BABU P
 Register Number:212222230075
-i)Image Translation
-
+```
+## i)Image Translation
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -59,10 +60,10 @@ translated_image = cv2.warpPerspective(image,M,(cols,rows))
 plt.axis('off')
 plt.imshow(translated_image)
 plt.show()
+```
 
-
-ii) Image Scaling
-
+## ii) Image Scaling
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -75,10 +76,10 @@ scaled_image = cv2.warpPerspective(image,M,(cols*2,rows*2))
 plt.axis('off')
 plt.imshow(scaled_image)
 plt.show()
+```
 
-
-iii)Image shearing
-
+## iii)Image shearing
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -94,10 +95,10 @@ plt.axis('off')
 plt.imshow(sheared_img_xaxis)
 plt.imshow(sheared_img_yaxis)
 plt.show()
-
-
-iv)Image Reflection
-
+```
+ 
+## iv)Image Reflection
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -113,9 +114,9 @@ plt.axis('off')
 plt.imshow(reflected_img_xaxis)
 plt.imshow(reflected_img_yaxis)
 plt.show()
-
-v)Image Rotation
-
+```
+## v)Image Rotation
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -129,10 +130,10 @@ rotated_img = cv2.warpPerspective(image,M,(int(cols),int(rows)))
 plt.axis('off')
 plt.imshow(rotated_img)
 plt.show()
+```
 
-
-vi)Image Cropping
-
+## vi)Image Cropping
+```
 import numpy as np
 import cv2
 import matplotlib.pyplot as plt
@@ -175,7 +176,6 @@ plt.show()
 
 ### vi)Image Cropping
 ![output](./f.png)
-
 
 
 
